@@ -18,6 +18,7 @@
     "url": "git://github.com/thncode/homebridge-fakeswitch.git"
   },
   "dependencies": {
-    "request": "^2.65.0"
+    "request": "^2.65.0",
+    "node-persist": "^2.1.0"
   }
 }
