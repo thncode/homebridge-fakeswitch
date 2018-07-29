@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-fakebulb1",
+  "name": "homebridge-fakeswitch",
   "version": "0.0.1",
-  "description": "Fake bulb plugin for homebridge: https://github.com/nfarina/homebridge",
+  "description": "Fake switch plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "MIT",
   "keywords": [
     "homebridge-plugin"
