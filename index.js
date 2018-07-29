@@ -10,7 +10,7 @@ module.exports = function(homebridge) {
   homebridge.registerAccessory("homebridge-fakeswitch", "FakeSwitch", FakeSwitch);
 }
 
-function DummySwitch(log, config) {
+function FakeSwitch(log, config) {
   this.log = log;
   this.name = config.name;
   this.stateful = config.stateful;
@@ -36,11 +36,11 @@ function DummySwitch(log, config) {
   }
 }
 
-DummySwitch.prototype.getServices = function() {
+FakeSwitch.prototype.getServices = function() {
   return [this._service];
 }
 
-DummySwitch.prototype._setOn = function(on, callback) {
+FakeSwitch.prototype._setOn = function(on, callback) {
 
   this.log("Setting switch to " + on);
 
