@@ -1,11 +1,11 @@
-# "Dummy Switches" Plugin
+# "Fake Switches" Plugin
 
 Example config.json:
 
 ```
     "accessories": [
         {
-          "accessory": "DummySwitch",
+          "accessory": "FakeSwitch",
           "name": "My Switch 1"
         }   
     ]
@@ -25,7 +25,7 @@ The default behavior of a dummy switch is to turn itself off one second after be
 ```
     "accessories": [
         {
-          "accessory": "DummySwitch",
+          "accessory": "FakeSwitch",
           "name": "My Stateful Switch 1",
           "stateful": true
         }   
@@ -40,7 +40,7 @@ You may also want to create a dummy switch that turns itself on one second after
 ```
     "accessories": [
         {
-          "accessory": "DummySwitch",
+          "accessory": "FakeSwitch",
           "name": "My Stateful Switch 1",
           "reverse": true
         }   
